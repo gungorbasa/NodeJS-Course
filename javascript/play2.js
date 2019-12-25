@@ -32,3 +32,9 @@ const toArray = (...args) => {
 };
 
 console.log(toArray(1,2,3,4,5));
+
+const { name, age } = person;
+console.log(name, age);
+
+const [item1, item2] = hobbies;
+console.log(item1, item2);
